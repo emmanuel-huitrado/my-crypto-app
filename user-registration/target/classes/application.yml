@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: user-registration
+  data:
+    mongodb:
+      uri: mongodb+srv://cryptoapp-admin:Password1@cryptoapp-cluster.sc622.mongodb.net/cryptoapp-db?retryWrites=true&w=majority
+      database: cryptoapp-db
